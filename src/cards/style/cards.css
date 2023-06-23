@@ -1,0 +1,30 @@
+
+.card{
+
+    width: 200px;
+    height: 300px;
+    border: solid 5px ;  
+    border-radius: 20px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    list-style: none;
+}
+
+.picture{
+
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+
+}
+
+.poke-name{
+
+    display: flex;
+    max-width: 200px;
+}
